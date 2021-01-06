@@ -1,0 +1,214 @@
+/*==========================
+----------------------------Basic HTML Reset---------------------
+===============================*/
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Bebas Neue", cursive;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/*==========================
+----------------------------Styling Nav Bar---------------------
+===============================*/
+.main-nav {
+}
+.nav-list {
+  padding: 20px 0;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+}
+.lav-item {
+  display: inline-block;
+  margin-left: 25px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
+
+/*==========================
+----------------------------Utility Class---------------------
+===============================*/
+.tomato-text {
+  color: tomato;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/*----------------------Components---------------------*/
+.btn-inquary {
+  display: inline-block;
+  position: relative;
+  right: -318px;
+  top: -16px;
+}
+
+.social-icon {
+  height: 40px;
+  width: 40px;
+}
+.social-icon:not(:last-child) {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.strength-card {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px 10px;
+  box-shadow: 6px 8px 18px grey;
+  height: 220px;
+}
+.strength-icon {
+  display: block;
+  color: #ff8063;
+}
+
+.btn {
+  margin-top: 50px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ff8063;
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+/*---------------------------------       Section     ---------------------------------*/
+#section-main {
+  padding: 50px 0 100px 0;
+}
+#section-project {
+  padding: 120px 150px;
+  background-color: #f8f9fc;
+}
+#section-about {
+  padding-bottom: 80px;
+}
+#section-inquary {
+  padding: 100px 0;
+}
+#section-strength {
+  padding: 80px 0;
+  background-color: rgb(236, 249, 255);
+}
+
+/*=========================Project Showcase========================*/
+.project-image {
+  width: 100%;
+  overflow: hidden;
+}
+.project-card {
+  border-radius: 10px;
+  padding: 10px 10px 30px 10px;
+  background-color: #fff;
+  box-shadow: 6px 8px 18px grey;
+}
+.project-heading {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 10px 0;
+}
+.work-inquary {
+  width: 930px;
+  height: 230px;
+  background-image: url(images/group.png);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  margin: 0 auto 90px auto;
+  padding: 64px 100px;
+}
+
+/*-------------------------------  Grids  ---------------------------------------*/
+
+.half-width {
+  width: 42.5%;
+  float: left;
+}
+.half-width:first-child {
+  margin-right: 15%;
+}
+
+.column-1-of-4 {
+  width: 22%;
+
+  float: left;
+}
+.column-1-of-4:not(:last-child) {
+  margin-right: 4%;
+}
+.colum-1-of-3 {
+  width: 30%;
+  float: left;
+}
+.colum-1-of-3:not(:last-child) {
+  margin-right: 5%;
+}
+
+/*------------------------------    Typography    --------------------------------*/
+.heading-secondary {
+  font-size: 48px;
+  margin: 20px 0 30px 0;
+}
+.heading-primary {
+  font-size: 80px;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+.heading-tertiary {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.heading-inquary {
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 0 0 0 0;
+}
